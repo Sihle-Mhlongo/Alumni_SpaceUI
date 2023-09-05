@@ -7,19 +7,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 </head>
 <body ng-controller="ServicesController">
+    
     <header>
         <h1>Our Services</h1>
     </header>
-
+    
     <section class="services-section">
-        <ul>
-            <li ng-repeat="service in services">
+        <ul ng-repeat="service in services">
                 <div class="service">
                     <h2>{{ service.name }}</h2>
                     <p>{{ service.description }}</p>
                     
                 </div>
-            </li>
         </ul>
     </section>
 
@@ -38,8 +37,8 @@
                     
                 },
                 {
-                    name: 'Graphic Design',
-                    description: 'Our creative team designs logos, graphics, and visuals for your brand.',
+                    name: 'Connect you to a job',
+                    description: 'Our main goal is to provide available vacancies for alumni who seek for jobs.',
                     
                 },
                 {
