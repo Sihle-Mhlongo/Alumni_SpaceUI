@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 </head>
 <body ng-controller="AboutUsController">
@@ -13,14 +13,13 @@
 
     <section class="team-section">
         <h2>Our Team</h2>
-        <ul>
-            <li ng-repeat="member in teamMembers">
+        
+            <ul ng-repeat="member in teamMembers">
                 <div class="team-member">
                     <img ng-src="{{ member.image }}" alt="{{ member.name }}">
                     <h3>{{ member.name }}</h3>
                     <p>{{ member.role }}</p>
                 </div>
-            </li>
         </ul>
     </section>
 
@@ -30,7 +29,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Company Name</p>
+        <p>&copy; 2023 Alumni_SpaceUI</p>
     </footer>
 
     <script>
@@ -39,17 +38,17 @@
         app.controller('AboutUsController', function ($scope) {
             $scope.teamMembers = [
                 {
-                    name: 'Sihle Mhlongo',
+                    name: 'Sihle ',
                     role: 'Developer',
                     image: 'Sihle.jpg'
                 },
                 {
-                    name: 'Sneh Masuku',
+                    name: 'Sneh ',
                     role: 'Developer',
                     image: 'Sneh.jpg'
                 },
                 {
-                    name: 'Themba Mabena',
+                    name: 'Themba ',
                     role: 'Developer',
                     image: 'bob.jpg'
                 },
@@ -85,7 +84,7 @@
                 }
             ];
 
-            $scope.missionStatement = "Our mission is to provide quality products and services to our customers.";
+            $scope.missionStatement = "Our aim is to bridge the gab between industries and High institutions, so we provide internally Work-Intergrated Leaarning and available TUT vacancies.";
         });
     </script>
 </body>
