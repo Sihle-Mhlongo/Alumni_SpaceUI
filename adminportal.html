@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="adminApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="adminportal.css">
+</head>
+<body ng-controller="AdminController as vm">
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="#">Track alumni</a></li>
+            <li><a href="#">Add available jobs</a><li>
+            <li><a href="#">Add available events</a></li>   
+            <li><a href="#">Respond query notifications</a></li>
+            <li><a href="#">view report</a></li>
+            <!-- Add more navigation items as needed -->
+        </ul>
+    </div>
+    <main ng-view></main>
+
+    <!-- Include AngularJS script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <!-- Include AngularJS route script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <!-- Include your AngularJS app and controller -->
+    <script src="app.js"></script>
+</body>
+</html>

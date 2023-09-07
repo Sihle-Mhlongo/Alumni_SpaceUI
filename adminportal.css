@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.nav-bar{
+    width: 100%;
+    height: fit-content;
+    justify-items: right;
+    display: inline-flex;
+
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin-bottom: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}

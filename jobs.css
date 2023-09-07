@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+ p{
+    text-align: center;
+ }
+body{
+    background-color: aqua;
+}
+.wrapper{
+    height: 45cm;
+    width: 15cm;
+    background-color: aqua;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-weight: 20px;
+    /*align-content: center;*/
+    
+}
+footer p{
+    text-align: center;
+}
