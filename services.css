@@ -9,15 +9,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../alumni.jpeg');
+    background-image: url('../servicesPic.jpeg');
     
 }
 
 header {
     background-color: transparent;
-    color: #fff;
+    color: #000000f3;
     text-align: center;
     padding: 20px;
+    font-size: xx-large;
 }
 
 .services-section {
@@ -25,7 +26,7 @@ header {
 }
 
 .service {
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     padding: 20px;
     margin: 10px;
     background-color: transparent;
@@ -33,17 +34,18 @@ header {
 .service h2{
     text-align: center;
     font-weight: 100%;
-    color: #fff;
+    color: #000000f3;
+    font-size: xx-large;
 }
  .service p{
        text-align: center;
        font-weight: 100%;
-       color: #fff;
+       color: #000000f3;
  }
 
 footer {
     background-color: transparent;
-    color: #fff;
+    color: #000000f3;
     text-align: center;
     padding: 10px;
 }

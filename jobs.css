@@ -14,12 +14,12 @@ h2{
     text-align: center;
  }
 body{
-    background-color: aqua;
+    background-image:url('../alumni.jpeg');
 }
 .wrapper{
     height: 45cm;
     width: 15cm;
-    background-color: aqua;
+    background-color: transparent;
     text-decoration: none;
     text-transform: uppercase;
     color: white;

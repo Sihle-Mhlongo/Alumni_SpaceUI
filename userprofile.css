@@ -1,14 +1,18 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('../alumni.jpeg');
+  
+    background-image: url('../background.jpg');
+    background-size: cover;
+    background-position: center
+
+
 }
- h1{
+ body .h1{
   color: #fff;
+   justify-content: center;
   align-items: center;
   position: fixed;
+  
 
  }
 .wrapper {
@@ -24,12 +28,14 @@ body {
     text-transform: uppercase;
     color: white;
     text-align: center;
+    font-size: xx-large;
 }
 .wrapper p{
     text-decoration: none;
     text-transform: lowercase;
     color: white;
     text-align: center;
+    font-size: large;
 }
 .wrapper input{
     align-content: space-between;
@@ -48,9 +54,10 @@ body {
     color: #fff;
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: transparent;
+    color: blue;
     text-align: center;
+     align-items: center;
     padding: 20px;
 }
 
@@ -70,7 +77,7 @@ header {
 button{
   height: 100;
   width: 80;
-  color: darkslateblue;
+  color: blue;
 
 }
 
